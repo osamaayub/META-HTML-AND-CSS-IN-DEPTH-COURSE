@@ -1,0 +1,14 @@
+.container{
+    display: grid-inline;
+    grid-template-columns: repeat(3,100px);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap:10px;
+    background-color: rgb(202,96,96);
+}
+.box{
+    background-color: #247;
+    color:#fff;
+    margin: 10px;
+    padding:15px;
+    font-size: 150%;
+}

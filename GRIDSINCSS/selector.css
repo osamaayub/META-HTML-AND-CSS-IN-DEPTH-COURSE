@@ -1,0 +1,24 @@
+/* li:nth-of-type(2)
+{
+    color: aqua;
+}
+li:nth-child(2)
+{
+    color:aqua;
+} */
+
+/*
+Child Selectors
+*/
+#blog > h1{
+    color:blue;
+}
+/*
+Genral Sibling Selector
+*/
+h1 ~p{
+    color:yellow;
+}
+h1 + p{
+    color: palegreen;
+}

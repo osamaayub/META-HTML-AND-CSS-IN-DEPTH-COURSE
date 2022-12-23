@@ -1,0 +1,19 @@
+* {
+    list-style: none;
+}
+
+body {
+    color: #333333;
+    background-color: #EE9972;
+    font-family: Cambria;
+}
+
+/*
+Genral Sibling Selector
+*/
+div~ul {
+    background-color: #EDEFEE;
+    color: #495E57;
+    box-shadow: inset 1px 1px 3px #333333;
+    padding: 10px;
+}
